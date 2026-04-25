@@ -230,7 +230,7 @@ def handle_requests():
             elif server_name_used in {"BR", "US", "SAC", "NA"}:
                 url = "https://client.us.freefiremobile.com/LikeProfile"
             else:
-                url = "https://clientbp.ggblueshark.com/LikeProfile"
+                url = "https://clientbp.ggpolarbear.com/LikeProfile"
 
             asyncio.run(send_multiple_requests(uid, server_name_used, url))
 
